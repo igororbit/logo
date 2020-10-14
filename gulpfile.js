@@ -16,7 +16,8 @@ let clean_css = require("gulp-clean-css");
 let newer = require('gulp-newer');
 
 let webp = require('imagemin-webp');
-let webpcss = require("gulp-webp-css");
+//let webpcss = require("gulp-webp-css");
+let webpcss = require("gulp-webpcss");
 let webphtml = require('gulp-webp-html');
 
 let fonter = require('gulp-fonter');
