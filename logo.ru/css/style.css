@@ -1271,6 +1271,14 @@ body.ie ._ibg img {
   padding: 0px 0px 0px 30px;
 }
 
+.page__search {
+  margin: 0px 0px 22px 0px;
+}
+
+.page__slider {
+  margin: 0px 0px 65px 0px;
+}
+
 .menu-page {
   background: url("../img/bg_menu.jpg") top no-repeat;
   position: relative;
@@ -1590,12 +1598,12 @@ body.ie ._ibg img {
   font-weight: 300;
   font-size: 14px;
   line-height: 16.8px;
-  color: #666;
+  color: #666666;
+  white-space: nowrap;
 }
 
 .search-page__title span {
   margin: 0px 13px;
-  border-bottom: 1px dashed;
 }
 
 .search-page__title span:last-child {

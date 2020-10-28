@@ -51,6 +51,8 @@ for (let index = 0; index < checkboxCategories.length; index++) {
 
       if (checkboxActiveCategories.length > 0) {
          searchSelect.classList.add('_categories');
+         let searchQuantity = searchSelect.querySelector('.search-page__quantity');
+         searchQuantity.innerHTML = searchQuantity.getAttribute('data-text') + ' ' + checkboxActiveCategories.length;
       } else {
          searchSelect.classList.remove('_categories');
       }
