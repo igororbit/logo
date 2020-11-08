@@ -282,6 +282,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		@media (max-width: 640px) {
+			height: 0;
+		}
 	}
 	// .bottom-header__column
 	&__column {
